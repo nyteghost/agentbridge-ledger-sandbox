@@ -41,8 +41,8 @@
    "actor_id": 1,
    "agent": "probe",
    "attempt": 1,
-   "comment_id": null,
-   "comment_url": null,
+   "comment_id": 0,
+   "comment_url": "probe://not-posted",
    "config_sha": "0000000000000000000000000000000000000000000000000000000000000000",
    "created_at": "2024-09-19T14:01:20+00:00",
    "day": "2024-09-19",
@@ -50,17 +50,22 @@
     [
      "reserved",
      "2024-09-19T14:01:20+00:00"
+    ],
+    [
+     "posted",
+     "2026-11-16T14:01:45+00:00",
+     ""
     ]
    ],
    "hop": 1,
    "key": "335cdae226e4598ddcba3d23e86005da6717b0fe3e4709c8aea0709ac07019e7",
    "role": "probe",
-   "state": "reserved",
+   "state": "posted",
    "target": "claude",
    "task_id": "a99c7d5a-be7e-4a2d-838c-7db84b5ad2f0",
    "thread": 910000,
    "trigger": "probe-2143ebbd-dup",
-   "updated_at": "2024-09-19T14:01:20+00:00"
+   "updated_at": "2026-11-16T14:01:45+00:00"
   },
   "5793547ba0d24f539539dd97db6a8c248bae8f364685dad025bd169f2e22bdc4": {
    "actor_id": 1,
