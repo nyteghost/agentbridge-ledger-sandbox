@@ -1,11 +1,52 @@
 {
- "daily": {},
+ "daily": {
+  "2024-09-18": {
+   "claude": 1
+  }
+ },
  "holds": {},
  "repo": "agentbridge-probe/participant",
  "repo_id": 1,
- "reservations": {},
+ "reservations": {
+  "5793547ba0d24f539539dd97db6a8c248bae8f364685dad025bd169f2e22bdc4": {
+   "actor_id": 1,
+   "agent": "probe",
+   "attempt": 1,
+   "comment_id": null,
+   "comment_url": null,
+   "config_sha": "0000000000000000000000000000000000000000000000000000000000000000",
+   "created_at": "2024-09-18T14:01:20+00:00",
+   "day": "2024-09-18",
+   "history": [
+    [
+     "reserved",
+     "2024-09-18T14:01:20+00:00"
+    ]
+   ],
+   "hop": 1,
+   "key": "5793547ba0d24f539539dd97db6a8c248bae8f364685dad025bd169f2e22bdc4",
+   "role": "probe",
+   "state": "reserved",
+   "target": "claude",
+   "task_id": "1bad965f-2f0d-415e-acf7-6ceea22be287",
+   "thread": 900004,
+   "trigger": "probe-2143ebbd-slot-4",
+   "updated_at": "2024-09-18T14:01:20+00:00"
+  }
+ },
  "schema": "agentbridge-ledger/v1",
- "tasks": {},
- "threads": {},
- "triggers": {}
+ "tasks": {
+  "1bad965f-2f0d-415e-acf7-6ceea22be287": {
+   "created_at": "2024-09-18T14:01:20+00:00",
+   "hops": 1,
+   "last": "2024-09-18T14:01:20+00:00",
+   "thread": 900004
+  }
+ },
+ "threads": {
+  "900004": "1bad965f-2f0d-415e-acf7-6ceea22be287"
+ },
+ "triggers": {
+  "probe-2143ebbd-slot-4": "5793547ba0d24f539539dd97db6a8c248bae8f364685dad025bd169f2e22bdc4"
+ }
 }
