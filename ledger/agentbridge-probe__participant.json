@@ -1,0 +1,11 @@
+{
+ "daily": {},
+ "holds": {},
+ "repo": "agentbridge-probe/participant",
+ "repo_id": 1,
+ "reservations": {},
+ "schema": "agentbridge-ledger/v1",
+ "tasks": {},
+ "threads": {},
+ "triggers": {}
+}
