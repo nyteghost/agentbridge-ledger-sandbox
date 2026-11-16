@@ -1,0 +1,8 @@
+{
+ "repo": "agentbridge-probe/participant",
+ "repo_id": 1,
+ "schema": "agentbridge-ledger-triggers/v1",
+ "triggers": {
+  "probe-2143ebbd-slot-4": "2024-09-18"
+ }
+}

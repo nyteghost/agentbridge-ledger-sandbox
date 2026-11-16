@@ -1,12 +1,5 @@
 {
- "daily": {
-  "2024-09-18": {
-   "claude": 1
-  },
-  "2024-09-19": {
-   "claude": 1
-  }
- },
+ "daily": {},
  "holds": {
   "900000": {
    "reason": "daily cap reached for claude (1, UTC day 2024-09-18)",
@@ -36,76 +29,9 @@
  },
  "repo": "agentbridge-probe/participant",
  "repo_id": 1,
- "reservations": {
-  "335cdae226e4598ddcba3d23e86005da6717b0fe3e4709c8aea0709ac07019e7": {
-   "actor_id": 1,
-   "agent": "probe",
-   "attempt": 1,
-   "comment_id": 0,
-   "comment_url": "probe://not-posted",
-   "config_sha": "0000000000000000000000000000000000000000000000000000000000000000",
-   "created_at": "2024-09-19T14:01:20+00:00",
-   "day": "2024-09-19",
-   "history": [
-    [
-     "reserved",
-     "2024-09-19T14:01:20+00:00"
-    ],
-    [
-     "posted",
-     "2026-11-16T14:01:45+00:00",
-     ""
-    ]
-   ],
-   "hop": 1,
-   "key": "335cdae226e4598ddcba3d23e86005da6717b0fe3e4709c8aea0709ac07019e7",
-   "role": "probe",
-   "state": "posted",
-   "target": "claude",
-   "task_id": "a99c7d5a-be7e-4a2d-838c-7db84b5ad2f0",
-   "thread": 910000,
-   "trigger": "probe-2143ebbd-dup",
-   "updated_at": "2026-11-16T14:01:45+00:00"
-  },
-  "5793547ba0d24f539539dd97db6a8c248bae8f364685dad025bd169f2e22bdc4": {
-   "actor_id": 1,
-   "agent": "probe",
-   "attempt": 1,
-   "comment_id": 0,
-   "comment_url": "probe://not-posted",
-   "config_sha": "0000000000000000000000000000000000000000000000000000000000000000",
-   "created_at": "2024-09-18T14:01:20+00:00",
-   "day": "2024-09-18",
-   "history": [
-    [
-     "reserved",
-     "2024-09-18T14:01:20+00:00"
-    ],
-    [
-     "posted",
-     "2026-11-16T14:01:48+00:00",
-     ""
-    ]
-   ],
-   "hop": 1,
-   "key": "5793547ba0d24f539539dd97db6a8c248bae8f364685dad025bd169f2e22bdc4",
-   "role": "probe",
-   "state": "posted",
-   "target": "claude",
-   "task_id": "1bad965f-2f0d-415e-acf7-6ceea22be287",
-   "thread": 900004,
-   "trigger": "probe-2143ebbd-slot-4",
-   "updated_at": "2026-11-16T14:01:48+00:00"
-  }
- },
+ "reservations": {},
  "schema": "agentbridge-ledger/v1",
  "tasks": {
-  "1bad965f-2f0d-415e-acf7-6ceea22be287": {
-   "created_at": "2024-09-18T14:01:20+00:00",
-   "hops": 1,
-   "last": "2024-09-18T14:01:20+00:00",
-   "thread": 900004
-  },
   "870006de-ae6f-429f-b9e1-cb455ec8e875": {
    "created_at": "2024-09-18T14:01:20+00:00",
    "hops": 0,
@@ -115,12 +41,6 @@
    "created_at": "2024-09-18T14:01:20+00:00",
    "hops": 0,
    "thread": 900001
-  },
-  "a99c7d5a-be7e-4a2d-838c-7db84b5ad2f0": {
-   "created_at": "2024-09-19T14:01:20+00:00",
-   "hops": 1,
-   "last": "2024-09-19T14:01:20+00:00",
-   "thread": 910000
   },
   "d1aa0d0f-c911-48a8-941b-32ea62dfd8c8": {
    "created_at": "2024-09-18T14:01:20+00:00",
@@ -143,12 +63,7 @@
   "900001": "9d0902b3-bbe4-42cb-9c20-3a1efbabcb26",
   "900002": "e15d7a12-1816-46f1-968b-8453f49a237f",
   "900003": "f42e16d5-0108-48bf-8eb0-5a5ed84c0ff7",
-  "900004": "1bad965f-2f0d-415e-acf7-6ceea22be287",
-  "900005": "870006de-ae6f-429f-b9e1-cb455ec8e875",
-  "910000": "a99c7d5a-be7e-4a2d-838c-7db84b5ad2f0"
+  "900005": "870006de-ae6f-429f-b9e1-cb455ec8e875"
  },
- "triggers": {
-  "probe-2143ebbd-dup": "335cdae226e4598ddcba3d23e86005da6717b0fe3e4709c8aea0709ac07019e7",
-  "probe-2143ebbd-slot-4": "5793547ba0d24f539539dd97db6a8c248bae8f364685dad025bd169f2e22bdc4"
- }
+ "triggers": {}
 }
